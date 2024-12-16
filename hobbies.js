@@ -1,8 +1,6 @@
 function hobbies(hobbyOne, hobbyTwo, hobbyThree){
   return {
-    hobbyOne,
-    hobbyTwo,
-    hobbyThree
+    hobbies: [`${hobbyOne}`, `${hobbyTwo}`, `${hobbyThree}`]
   }
 }
 
