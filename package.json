@@ -1,0 +1,14 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "description": "Lavoriamo con i moduli commonjs esportando e importando valori e funzioni.",
+  "main": "hobbies.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node people.js",
+    "watch": "node --watch people.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
