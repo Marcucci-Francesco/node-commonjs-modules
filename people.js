@@ -1,6 +1,14 @@
 const fullName = require('./names.js');
 const hobbies = require('./hobbies.js');
 
-console.log(fullName("france", "marc"));
-console.log(hobbies("guitar", "football", "horses"));
+
+function nameAndHobby(){
+  return {
+    name: fullName("Francesco", "Marcucci"),
+    hobby: hobbies("Play Guitar", "Football", "Horses")
+  }
+}
+
+console.log(nameAndHobby());
+
 
